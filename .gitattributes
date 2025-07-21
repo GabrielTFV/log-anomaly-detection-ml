@@ -1,0 +1,7 @@
+data/preprocessors-pipeline/RF/pipeline_RF.joblib filter=lfs diff=lfs merge=lfs -text
+data/preprocessors-pipeline/LabelSpreading/ls_model_unsw_nb15.joblib filter=lfs diff=lfs merge=lfs -text
+data/preprocessors-pipeline/SelfTraining-RF/model_SelfTraining-RF.joblib filter=lfs diff=lfs merge=lfs -text
+data/raw/ubuntu-server-logs/ataque/reconnaissance/reconnaissance_features_processed.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/ubuntu-server-logs/ataque/reconnaissance/reconnaissance_processed.csv filter=lfs diff=lfs merge=lfs -text
+data/preprocessors-pipeline/RF/rf_pipeline_unsw_nb15.joblib filter=lfs diff=lfs merge=lfs -text
+*.pcap filter=lfs diff=lfs merge=lfs -text
